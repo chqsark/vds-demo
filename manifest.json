@@ -1,0 +1,15 @@
+{
+  "name": "vds-enable",
+  "description": "inject tracking code into any webpage",
+  "version": "0.0.0.1",
+  "background": {
+    "page": "background/background.html"
+  },
+  "browser_action": {
+      "default_title": "vds-enable",
+      "default_icon": "img/48.png"
+  },
+  "icons": { "48": "img/48.png", "128": "img/128.png"},
+  "permissions": [ "cookies", "tabs","background", "http://*/*", "https://*/*", "contextMenus", "storage"],
+  "manifest_version": 2
+}
